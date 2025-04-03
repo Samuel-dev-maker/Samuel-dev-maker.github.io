@@ -655,3 +655,15 @@ header img {
     color: var(--cor2);
     font-size: 60px;  
 }
+
+#contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+
+
