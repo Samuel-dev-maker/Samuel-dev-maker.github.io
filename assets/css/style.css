@@ -672,6 +672,64 @@ header img {
     font-weight: 700;    
 }
 
+#contato form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    padding: 10px;
+}
+
+#contato form label{
+    text-align:left ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#contato form input,textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--cor3);
+    width: 100%;
+    font-weight:600 ;
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: 1s all ease;
+}
+
+#contato form input:hover, textarea:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
+
+#contato form input:focus, textarea:focus{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
+    box-shadow: 3px 3px 3px var(--cor3);
+    padding-left: 10px;
+}
+
+#contato form textarea{
+    height: 200px;    
+}
+
+#contato form input[type="submit"]{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 70px;
+    border: 1px solid var(--cor1);
+    background-color: var(--cor2);
+    color: var(--cor1);
+    transition: 1s all ease;
+}
+
+#contato form input [type="submit"]:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
 
 
 
