@@ -796,9 +796,9 @@ footer{
 #restart {
     color: var(--cor2);
     display: flex;
-    align-items: center ;
-    
-}
+    font-size: 60px;
+    margin-left: 50%;
 
+}
 
 
