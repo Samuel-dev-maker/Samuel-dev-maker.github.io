@@ -630,7 +630,7 @@ header img {
    
     background-color: #25D366;
    
-    border: 5px solid var(--cor2);
+    border: 5px solid var(--cor1);
    
     color: var(--cor1);
    
@@ -647,14 +647,23 @@ header img {
     z-index: 2;
     
     cursor: pointer;
+    
+    transition: 1s all ease;
 
+}
+
+#whatsapp:hover {
+    scale: 1.2; /* Aumenta o tamanho da div */
 }
 
 #whatsapp a 
 {
-    color: var(--cor2);
+    color: var(--cor1);
     font-size: 60px;  
+    text-decoration: none;
 }
+
+
 
 #contatos{
     display: flex;
