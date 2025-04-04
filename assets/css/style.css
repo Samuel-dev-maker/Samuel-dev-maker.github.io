@@ -793,6 +793,12 @@ footer{
     scale: 1.2;
 }
 
+#restart {
+    color: var(--cor2);
+    display: flex;
+    align-items: center ;
+    
+}
 
 
 
